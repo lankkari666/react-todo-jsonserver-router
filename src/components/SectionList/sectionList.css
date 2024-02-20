@@ -1,64 +1,67 @@
 .listEl {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
-  list-style-type: none;
-  padding: 6px;
-  background: #f5deb3;
-  border: 1px solid #000000;
+    list-style-type: none;
+    padding: 6px;
+    background: #f5deb3;
+    border: 1px solid #000000;
 
-  font-size: 18px;
-  margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
+
 .listEl-text {
-  width: 75%;
+    width: 75%;
 }
+
 .listEl-text.active {
-  text-decoration-line: line-through;
+    text-decoration-line: line-through;
 }
 
 .line {
-  border: 1px solid black;
-  margin: 0 1px 0 1px;
+    border: 1px solid black;
+    margin: 0 1px 0 1px;
 }
 
 .btn {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 1px 2px 2px black;
-  border-radius: 20px;
-  cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 2px 2px black;
+    border-radius: 20px;
+    cursor: pointer;
 }
+
 .listEl-btns {
-  display: grid;
-  grid-template-columns: 60px 60px;
-  grid-template-rows: 60px 60px;
-  gap: 10px;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 60px 60px;
+    gap: 10px;
 }
 
 .positive {
-  width: 60px;
-  height: 60px;
-  background: #49ca49;
-  border: 1px solid #5b8b5b;
-  box-shadow: 0 3px 1px #5b8b5b;
+    width: 60px;
+    height: 60px;
+    background: #49ca49;
+    border: 1px solid #5b8b5b;
+    box-shadow: 0 3px 1px #5b8b5b;
 }
 
 .negative {
-  width: 60px;
-  height: 60px;
-  background: hwb(0 70% 15%);
-  border: 1px solid #000000;
-  box-shadow: 0 3px 1px #010101;
+    width: 60px;
+    height: 60px;
+    background: hwb(0 70% 15%);
+    border: 1px solid #000000;
+    box-shadow: 0 3px 1px #010101;
 }
 
 .edit {
-  background: #a5dfd0;
-  border: 1px solid #98b6b8;
-  box-shadow: 0 3px 1px #98b6b8;
-  text-shadow: none;
-  padding: 1px;
-  grid-column: span 2;
+    background: #a5dfd0;
+    border: 1px solid #98b6b8;
+    box-shadow: 0 3px 1px #98b6b8;
+    text-shadow: none;
+    padding: 1px;
+    grid-column: span 2;
 }

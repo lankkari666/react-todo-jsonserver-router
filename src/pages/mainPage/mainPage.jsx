@@ -1,6 +1,7 @@
 import {importJson, SectionAdd, SectionList} from "../../components";
 import {useEffect, useState} from "react";
 
+
 export const MainPage = () => {
     useEffect(() => {
         const fetchData = async () => await importJson(setTasks);
@@ -20,16 +21,17 @@ export const MainPage = () => {
                 />
                 <div className="list">
                     <ul>
-                        {tasks.map((item, index) => {
+                        {tasks.map((item) => {
                             return (
                                 <SectionList
-                                    key={index}
+                                    key={item.id}
                                     check={item.check}
                                     index={item.id}
                                     funcSet={setTasks}
                                 >
                                     {item.text}
                                 </SectionList>
+
                             );
                         })}
                     </ul>
